@@ -1,0 +1,343 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="authenticatedUser" content="guest">
+    <meta name="impersonatedUser" content="-">
+
+    <title></title>
+    
+    <link rel="shortcut icon" href="/LINCS/favicon.image?revision=534">
+<link rel="icon" href="/LINCS/favicon.image?revision=534">
+<script src="/labkey.js?304356614" type="text/javascript"></script>
+<script type="text/javascript">
+LABKEY.init({"container":{"formats":{"dateTimeFormat":"yyyy-MM-dd","numberFormat":null,"dateFormat":"yyyy-MM-dd"},"parentPath":"/LINCS","type":"folder","title":"GCP","folderType":"Targeted MS","parentId":"a2e79b08-8956-1032-b843-3013bb9b1d5e","path":"/LINCS/GCP","startUrl":"/project/LINCS/GCP/begin.view?","isWorkbook":false,"sortOrder":1,"hasRestrictedActiveModule":false,"name":"GCP","isContainerTab":false,"iconHref":"/_icons/icon_folder2.png","id":"9877d816-daf0-1032-99e5-3013bb9b09d2","activeModules":["Issues","FileContent","Announcements","Wiki","LINCS","TargetedMS","Search","MS2","Experiment","Query","Pipeline","Core"]},"extThemeName_42":"seattle","imagePath":"/_images","useMDYDateParsing":true,"project":{"path":"/LINCS","name":"LINCS","id":"a2e79b08-8956-1032-b843-3013bb9b1d5e"},"serverName":"panoramaweb.org","experimental":{"strictReturnUrl":false,"disableGuestAccount":false,"useExperimentalCoreUI":true,"containerRelativeURL":false},"login":{"registrationEnabled":false,"requiresTermsOfUse":false,"hasOtherLoginMechanisms":false},"tours":{},"sharedContainer":"Shared","defaultHeaders":{"X-LABKEY-CSRF":"4f3fd5ed48f3caa503736151070bb838","X-ONUNAUTHORIZED":"UNAUTHORIZED"},"pageAdminMode":false,"versionString":"18.20","contextPath":"","demoMode":false,"homeContainer":"home","extJsRoot":"ext-3.4.1","extDefaultDateTimeFormat":"Y-m-d","helpLinkPrefix":"https://www.labkey.org/Documentation/18.2/wiki-page.view?name=","devMode":false,"extDateInputFormat":"Y-m-d","CSRF":"4f3fd5ed48f3caa503736151070bb838","analyticProviders":{"AGG_MAD":"Median Absolute Deviation","AGG_COUNT_BLANK":"Count (blank)","AGG_MIN":"Minimum","AGG_STDERR":"Standard Error (of mean)","COL_SUMMARYSTATS":"Summary Statistics...","VIS_PIE":"Pie Chart","VIS_BOX":"Box & Whisker","AGG_COUNT_DISTINCT":"Count (distinct)","AGG_COUNT":"Count (non-blank)","AGG_MEAN":"Mean","COL_QUICK_CHART":"Quick Chart","VIS_BAR":"Bar Chart","AGG_STDDEV":"Standard Deviation (of mean)","AGG_QUARTILES":"Quartiles","AGG_MAX":"Maximum","COL_REMOVE":"Remove Column","AGG_MEDIAN":"Median","AGG_IQR":"Interquartile Range","AGG_SUM":"Sum"},"user":{"canUpdateOwn":false,"isRootAdmin":false,"canUpdate":false,"isGuest":true,"canInsert":false,"displayName":"guest","isSignedIn":false,"avatar":"/_images/defaultavatar.png","isAdmin":false,"isDeveloper":false,"isSystemAdmin":false,"canDeleteOwn":false,"phone":null,"canDelete":false,"id":0,"email":"guest"},"hash":"304356614","moduleContext":{"pipeline":{},"core":{},"lincs":{},"search":{},"experiment":{},"filecontent":{},"wiki":{},"query":{},"issues":{},"announcements":{},"ms2":{},"targetedms":{"TargetedMS Folder Type":"Experiment","TargetedMS AutoQCPing Timeout":"15"}},"extDefaultDateFormat":"Y-m-d","uuids":["c3e02e14-77f2-1036-9916-3013bb9b6ada","c3e02e15-77f2-1036-9916-3013bb9b6ada","c3e02e16-77f2-1036-9916-3013bb9b6ada"]});
+</script>
+<link href="/core/css/ext3_seattle.css?304356614" type="text/css" rel="stylesheet">
+<link href="/core/css/core.css?304356614" type="text/css" rel="stylesheet">
+<link href="/core/css/seattle.css?304356614" type="text/css" rel="stylesheet">
+<link href="/core/customStylesheet.view?revision=534" type="text/css" rel="stylesheet">
+<link href="/GuidedTip.css" type="text/css" rel="stylesheet"><script type="text/javascript">
+LABKEY.requestedCssFiles('core/css/ext3_seattle.css','GuidedTip.css');
+</script>
+<script type="text/javascript">
+LABKEY.loadedScripts('ext-3.4.1/adapter/ext/ext-base-debug.js','ext-3.4.1/ext-all-debug.js','ext-3.4.1/ext-patches.js','GuidedTip.js','clientapi/ext3/EditorGridPanel.js','clientapi/ext3/ExtendedJsonReader.js','clientapi/ext3/FieldKey.js','clientapi/ext3/FileSystem.js','clientapi/ext3/FilterDialog.js','clientapi/ext3/FormPanel.js','clientapi/ext3/GridView.js','clientapi/ext3/HoverPopup.js','clientapi/ext3/LongTextEditor.js','clientapi/ext3/PersistentToolTip.js','clientapi/ext3/SecurityPolicy.js','clientapi/ext3/Store.js','clientapi/ext3/Utils.js','ext-3.4.1/adapter/ext/ext-base.js','ext-3.4.1/ext-all.js','clientapi/ext3.min.js','internal/jQuery/jquery-1.12.4.js','internal/jQuery/jquery-dateFormat.js','internal/jQuery/jquery-1.12.4.min.js','internal/jQuery/jquery-dateFormat.min.js','core/css/core.js','clientapi/core/Utils.js','clientapi/core/ActionURL.js','clientapi/core/Ajax.js','clientapi/core/Assay.js','clientapi/core/Domain.js','clientapi/core/Experiment.js','clientapi/core/FieldKey.js','clientapi/core/Filter.js','clientapi/core/List.js','clientapi/core/Message.js','clientapi/core/MultiRequest.js','clientapi/core/ParticipantGroup.js','clientapi/core/Pipeline.js','clientapi/core/Specimen.js','clientapi/core/Query.js','clientapi/core/GetData.js','clientapi/core/Report.js','clientapi/core/Security.js','clientapi/core/Visualization.js','clientapi/dom/Utils.js','clientapi/dom/Assay.js','clientapi/dom/Tour.js','clientapi/dom/Chart.js','clientapi/dom/Form.js','clientapi/dom/NavTrail.js','clientapi/dom/Portal.js','clientapi/dom/Query.js','clientapi/dom/Security.js','clientapi/dom/GetData.js','clientapi/dom/WebPart.js','clientapi/dom/DataRegion.js','clientapi_core.min.js','clientapi.min.js','util.js','internal.min.js');
+</script>
+<script src="/ext-3.4.1/adapter/ext/ext-base.js?304356614" type="text/javascript"></script>
+<script src="/ext-3.4.1/ext-all.js?304356614" type="text/javascript"></script>
+<script src="/ext-3.4.1/ext-patches.js?304356614" type="text/javascript"></script>
+<script src="/GuidedTip.js?304356614" type="text/javascript"></script>
+<script src="/clientapi/ext3.min.js?304356614" type="text/javascript"></script>
+<script src="/internal/jQuery/jquery-1.12.4.min.js?304356614" type="text/javascript"></script>
+<script src="/internal/jQuery/jquery-dateFormat.min.js?304356614" type="text/javascript"></script>
+<script src="/core/css/core.js?304356614" type="text/javascript"></script>
+<script src="/clientapi_core.min.js?304356614" type="text/javascript"></script>
+<script src="/clientapi.min.js?304356614" type="text/javascript"></script>
+<script src="/internal.min.js?304356614" type="text/javascript"></script>
+
+    
+    
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-36857435-2']);
+_gaq.push(['_setDetectTitle', false]);
+_gaq.push(['_trackPageview', '/lincs/LINCS/GCP/RunGCTReport.view?runId=35470&reportName=GCT%2520File%2520GCP&processed=true&serverGUID=ab4dea20.4e28.1030.8928.134f01698911']);
+</script>
+<script async="async" type="text/javascript" src="https://ssl.google-analytics.com/ga.js"></script>
+
+</head>
+<body onload="" class="default-template-body">
+
+<div class="lk-header-ct">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="labkey-page-header">
+    <div class="container clearfix">
+        <div class="hidden-xs navbar-header">
+            <a class="brand-logo" href="/labkey/project/home/start.view?">
+                <img src="/LINCS/logo.image?revision=534" alt="PanoramaWeb">
+            </a>
+            
+            
+                        <h4 class="brand-link"><a href="/labkey/project/home/start.view?">PanoramaWeb</a></h4>
+            
+        </div>
+        <div class="hidden-sm hidden-md hidden-lg navbar-header">
+            <a class="brand-logo-mobile" href="/labkey/project/home/start.view?">
+                <img src="/LINCS/logo-mobile.image?revision=534" alt="PanoramaWeb">
+            </a>
+            
+                        <h4 class="brand-link"><a href="/labkey/project/home/start.view?">PanoramaWeb</a></h4>
+            
+        </div>
+        
+        
+        <ul class="navbar-nav-lk">
+
+            <li class="navbar-search hidden-xs">
+                <a class="fa fa-search" id="global-search-trigger"></a>
+                <div id="global-search" class="global-search">
+                    <form id="global-search-form" method="GET" action="/search/LINCS/GCP/search.view?">
+                        <input type="text" class="search-box" name="q" placeholder="Search PanoramaWeb" value="">
+                        <input type="submit" hidden>
+                        <a href="#" onclick="document.getElementById('global-search-form').submit(); return false;" class="btn-search fa fa-search"></a>
+                    </form>
+                </div>
+            </li>
+            <li id="global-search-xs" class="dropdown visible-xs">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                    <i class="fa fa-search"></i>
+                </a>
+                <ul class="dropdown-menu dropdown-menu-right">
+                    <li>
+                        <form method="GET" action="/search/LINCS/GCP/search.view?">
+                            <div class="input-group">
+                                <input type="text" class="search-box" name="q" placeholder="Search PanoramaWeb" value="">
+                                <input type="submit" hidden>
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+
+
+
+
+
+
+            
+            <li>
+                <a href="/login/LINCS/GCP/login.view?returnUrl=%2Flincs%2FLINCS%2FGCP%2FRunGCTReport.view%3FrunId%3D35470%26reportName%3DGCT%252520File%252520GCP%26processed%3Dtrue" class="header-link">
+                    <span>Sign In</span>
+                </a>
+            </li>
+
+
+
+
+
+
+
+        </ul>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="labkey-page-nav">
+    <div class="container">
+        <div id="nav_dropdowns" class="navbar-header">
+            <ul class="nav">
+                
+                <li class="dropdown" data-webpart="FolderNav" data-name="FolderNav">
+                    <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <i class="fa fa-folder-open"></i>&nbsp;LINCS
+                    </a>
+                    <ul class="dropdown-menu"></ul>
+                </li>
+                
+                <li class="dropdown" data-webpart="WikiMenu1" data-name="Wiki Menu">
+                    <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">LINCS PCCSE Overview</a>
+                    <ul class="dropdown-menu lk-custom-dropdown-menu"></ul>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="nav_tabs" class="lk-nav-tabs-ct">
+            <ul id="lk-nav-tabs-separate" class="nav lk-nav-tabs pull-right " style="opacity: 0;">
+                
+                <li role="presentation" class="active">
+                    <a href="/project/LINCS/GCP/begin.view?" id="PanoramaDashboardTab">
+                        
+                        Panorama Dashboard
+                    </a>
+                    
+                </li>
+                
+                <li role="presentation" class="">
+                    <a href="/project/LINCS/GCP/begin.view?pageId=Data%20Pipeline" id="DataPipelineTab">
+                        
+                        Data Pipeline
+                    </a>
+                    
+                </li>
+                
+            </ul>
+            <ul id="lk-nav-tabs-collapsed" class="nav lk-nav-tabs pull-right" style="display: none;">
+                
+                <li role="presentation" class="dropdown active">
+                    <a data-target="#" class="dropdown-toggle" data-toggle="dropdown">
+                        Panorama Dashboard&nbsp;
+                        <span class="fa fa-chevron-down" style="font-size: 12px;"></span>
+                    </a>
+                    
+                    <ul class="dropdown-menu dropdown-menu-right">
+                        
+                        <li>
+                            <a href="/project/LINCS/GCP/begin.view?">
+                                <b>Panorama Dashboard</b>
+                            </a>
+                        </li>
+                        
+                        <li>
+                            <a href="/project/LINCS/GCP/begin.view?pageId=Data%20Pipeline">
+                                Data Pipeline
+                            </a>
+                        </li>
+                        
+                    </ul>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script type="application/javascript">
+    var __menus = {};
+    LABKEY.Utils.onReady(function() {
+        __menus['WikiMenu1'] = {};__menus['WikiMenu1']['webPartContainer'] = 'a2e79b08-8956-1032-b843-3013bb9b1d5e';__menus['WikiMenu1']['name'] = 'lincs_pccse_overview';__menus['WikiMenu1']['X-LABKEY-CSRF'] = 'b3d295d034d84685dfbf03f319dd5712';
+    });
+</script>
+
+</div>
+
+<div class="lk-body-ct">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <noscript><div class="alert alert-warning" role="alert">JavaScript is disabled. For the full experience enable JavaScript in your browser.</div></noscript>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 lk-body-title">
+            
+            
+            
+                <h3 style="display: inline-block;">
+                    GCP
+                </h3>
+                
+                
+                
+                    <span class="lk-body-title-folder-outer">
+                        <i class="fa fa-folder-o"></i>
+                        
+                        <a class="lk-body-title-folder" href="/project/LINCS/GCP/begin.view?">GCP</a>
+                        
+                    </span>
+                
+            
+            
+            
+        </div>
+    </div>
+    <div class="row content-row">
+        <div class="content-left">
+            <div>
+
+
+
+
+
+
+<div class="labkey-error">Could not find report with name GCT%20File%20GCP<br>
+</div>
+<br><br>
+<a class="labkey-button" href="#" onclick="if(this.className.indexOf(&#039;labkey-disabled-button&#039;) != -1){return false;}window.history.back(); return false;" ><span>Back</span></a>
+<a class="labkey-button" href="/project/home/start.view?" onclick="if(this.className.indexOf(&#039;labkey-disabled-button&#039;) != -1){return false;}" ><span>Home</span></a>
+</div>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+<footer class="footer-block">
+    <div class="footer-content">
+    <div id="ModuleHtmlView_476972"><div style="text-align: center; padding:6px;">
+    <a href="http://labkey.com" target="_blank">Powered by LabKey</a>
+</div>
+</div>
+    </div>
+</footer>
+
+
+<script type="text/javascript">LABKEY.loadScripts(); LABKEY.showNavTrail();</script>
+<!-- curl/7.51.0 -->
+<a href="/lincs/__r836/RunGCTReport.view?runId=35470&reportName=GCT%2520File%2520GCP&processed=true" id="permalink" name="permalink" style="display: none;"></a>
+</body>
+</html>
